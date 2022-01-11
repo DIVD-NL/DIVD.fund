@@ -28,9 +28,10 @@
   <style>
 
 	body {
-  		background-color: #000;
+      background-color: #1D1D1B;
 	     }
 	.img-container-block {
+      width: 100%;
 	  text-align: center;
 	}
 	.img-container-inline {
@@ -39,12 +40,15 @@
 	}
 
     .text-block {
-        padding-left: 25%;
-        padding-right: 25%;
-        text-align: center;
-        display: block;
+      text-align: center;
+      display: block;
+      max-width: 1000px;
+      margin: 0 auto;
+      width: 100%;
+      padding: 0 30px;
+      box-sizing: border-box;
     }
-	
+
 	@import url(fonts/font-awesome.min.css);
 	/* raleway-regular - latin */
 	@font-face {
@@ -72,9 +76,7 @@
 	    font-size: 18pt;
 	    font-family: "Raleway";
 	    color: white;
-	    top: 50%;
-        left: 50%;
-	}	
+	}
 
 	.list-block {
 	    border: 3px solid #fff952;
@@ -87,7 +89,7 @@
 	    font-size: 18pt;
 	    font-family: "Raleway";
 	    color: white;
-        margin-bottom: 5pt;	    
+        margin-bottom: 5pt;
 	}
 
 	.list-block p {
@@ -95,14 +97,14 @@
 	    font-size: 18pt;
 	    font-family: "Raleway";
 	    color: white;
-        margin-bottom: 5pt;	    
+        margin-bottom: 5pt;
 	}
 
 	ul {
 	  list-style: none;
 	  text-align: left;
 	}
-	
+
 	ul li:before {
 	  content: 'âœ“';
 	}
@@ -140,7 +142,7 @@
     a {
         color:#FFF952;
     }
-    
+
     a:active {
         color:#FFFFFF;
     }
@@ -159,17 +161,17 @@
 </div>
 
 
-  <div class="text-block">      
+  <div class="text-block">
   <p>Invitation form for requesting to add your organization to DIVD Bug bounty programs.</p><br>
   <a href="https://docs.google.com/forms/d/e/1FAIpQLSe3a3iXPnVK6B3re1I5Ynd28H9Ew7BvbLDMMIINmZU7VVXwOg/viewform" class="button2">Add your organization</a>
   </div><br>
 
-  <div class="text-block">      
+  <div class="text-block">
   <p>Invitation form to enable Responsible Disclosure/Coordinated Vulnerability Disclosure for your program will allow anyone with access to your Responsible Disclosure/Coordinated Vulnerability Disclosure policy to report any discovered vulnerabilities.</p><br>
   <a href="https://docs.google.com/forms/d/e/1FAIpQLSeLTXLHxYk-XEur9rvKVYURa2x8WDzUmhamzidzpmz9uJUaGw/viewform" class="button2">Add your organization</a>
   </div><br>
 
-  <div class="text-block">      
+  <div class="text-block">
   <p>Invitation form for requesting to become a DIVD Bug bounty program researcher.</p><br>
   <a href="https://docs.google.com/forms/d/e/1FAIpQLScgC3c1LOs1NnJWf4F7Z073hJm9CoysSP2GOO1kuKC_XOIuDA/viewform" class="button2">Bug bounty program researcher</a>
   </div><br>
