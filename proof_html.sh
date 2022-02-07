@@ -25,7 +25,7 @@ ERRORS=$( grep 'error:' $TIDY_OUT | wc -l )
 if [[ $ERRORS -gt 0 ]] ; then
 	echo "------------------------------------------------------------------------------------"
 	echo "There are $ERRORS errors in html files, not good enough!"
-	grep 'Error:' $TIDY_OUT
+	grep 'error:' $TIDY_OUT
 	# TODO break here # exit 1
 else
 	echo "------------------------------------------------------------------------------------"
