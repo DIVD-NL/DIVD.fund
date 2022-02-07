@@ -36,7 +36,6 @@ layout: none
   <div class="img-container-block">
     <img src="logo.png" alt="DIVD.fund">
     <br />
-  Dit is een test!
   <!-- Calendly inline widget begin -->
   <div class="calendly-inline-widget" data-url="https://calendly.com/victor-gevers"></div>
   <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
@@ -45,4 +44,7 @@ layout: none
   </div>
 <div>
 </body>
+{% if jekyll_env!="production" %}
+  <script type="text/javascript" src="/assets/js/livereload.js"></script>
+{% endif %}
 </html>

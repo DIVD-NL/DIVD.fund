@@ -35,7 +35,7 @@ plugins:
 # Custom headers
 webrick:
   headers:
-    Content-Security-Policy: default-src 'none'; font-src 'self'; img-src 'self' data:; script-src 'self' https://assets.calendly.com; style-src 'self'; connect-src 'self'; frame-src https://calendly.com
+    Content-Security-Policy: default-src 'none'; font-src 'self'; img-src 'self' data:; script-src 'self' https://assets.calendly.com; style-src 'self'; connect-src 'self'; frame-src https://calendly.com;
 
 # Collections
 collections:
