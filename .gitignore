@@ -1,0 +1,16 @@
+.bundle
+.bundle-cache
+.jekyll-metadata
+.jekyll-cache/
+.sass-cache/
+.DS_Store
+Gemfile.lock
+_site/
+.env
+csirt.divd.nl/_team/
+www.divd.nl/_cases/
+www.divd.nl/_csirt_posts/
+www.divd.nl/_cves/
+www.divd.nl/_data/scanners.yml
+*.bak
+*.log
