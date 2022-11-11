@@ -19,7 +19,7 @@ if [[ $ERRORS -gt 0 ]] ; then
 	echo "------------------------------------------------------------------------------------"
 	echo "There are $ERRORS errors in html files, not good enough!"
 	grep 'error:' $TIDY_OUT
-	exit 1
+	# TODO break here # exit 1
 else
 	echo "------------------------------------------------------------------------------------"
 	echo " HTML checked and found flawles, \0/ \0/ \0/ \0/ \0/ \0/ "
