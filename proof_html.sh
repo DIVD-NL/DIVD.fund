@@ -1,6 +1,5 @@
 #!/bin/bash
 set -e # Need to fail on error
-set -x
 TIDY_OUT=/tmp/tidy_out.$$
 
 gem install html-proofer
@@ -20,7 +19,7 @@ if [[ $ERRORS -gt 0 ]] ; then
 	echo "------------------------------------------------------------------------------------"
 	echo "There are $ERRORS errors in html files, not good enough!"
 	grep 'error:' $TIDY_OUT
-	# TODO break here # exit 1
+	exit 1
 else
 	echo "------------------------------------------------------------------------------------"
 	echo " HTML checked and found flawles, \0/ \0/ \0/ \0/ \0/ \0/ "
