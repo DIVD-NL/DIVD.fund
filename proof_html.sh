@@ -1,5 +1,6 @@
 #!/bin/bash
 set -e # Need to fail on error
+set -x
 TIDY_OUT=/tmp/tidy_out.$$
 
 gem install html-proofer
