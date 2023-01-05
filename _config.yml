@@ -55,5 +55,6 @@ exclude:
   - .keep
   - Gemfile
   - Gemfile.lock
+  - vendor
   - "*.conf"
   - "*:Zone.Identifier"
