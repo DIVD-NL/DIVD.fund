@@ -696,3 +696,7 @@ input:where([type="text"], [type="email"], ) {
     display: inline-flex;
   }
 }
+
+#logo {
+  height:75px;
+}
