@@ -1,0 +1,19 @@
+/* Main styling */
+
+.img-container-block {
+  text-align: center;
+}
+.img-container-inline {
+  text-align: center;
+  display: block;
+}
+
+.calendly-inline-widget {
+	min-width: 320px;
+	height:630px;
+}
+.divd-black {
+ 	background-color: #1D1D1B;
+ 	color:  white;
+}
+
