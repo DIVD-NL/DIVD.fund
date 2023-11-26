@@ -2,220 +2,131 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#000000">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DIVD.Fund</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.css" />
-  <script src="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+    <!-- BOOTSTRAP CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- LIBRARY -->
+    <link rel="stylesheet" href="css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/foot.css">
+</head>
+<!-- CSS -->
+<link rel="stylesheet" href="/css/style.css">
+<title>DIVD.FUND</title>
 </head>
 
 <body>
-  <header class="primary-header">
-    <div class="container">
-      <div class="nav-wrapper">
-        <a href="/"><img src="images/logo.png" alt="DIVD.fund" id="logo"></a>
-        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
-          <img class="icon-hamburger" src="/images/icon-hamburger.svg" alt="" aria-hidden="true">
-          <img class="icon-close" src="/images/icon-close.svg" alt="" aria-hidden="true">
-          <span class="visually-hidden">Menu</span>
-        </button>
-        <nav class="primary-navigation" id="primary-navigation">
-          <ul aria-label="Primary" role="list" class="nav-list">
-            <li><a href="#purpose">Purpose</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#people">People</a></li>
-            <li><a href="#">Principles</a></li>
-          </ul>
+    <header>
+        <nav class="container">
+            <ul class='nav-bar'>
+                <li class='logo'><img src='/images/logo.png' /></li>
+                <input type='checkbox' id='check' />
+                <div class="menu">
+                    <li><a href="#purpose">Purpose</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="https://theorg.com/org/divd-fund" target="_blank">People</a></li>
+                    <li><a href="https://theorg.com/org/divd-fund/jobs" target="_blank">Positions</a></li>
+                </div>
+                <label for="check" class="open-menu">&#9776; </label>
+            </ul>
         </nav>
-        <button class="button | display-sm-none display-md-inline-flex">Patronage</button>
-      </div>
-    </div>
-  </header>
+    </header>
+</body>
 
-  <main>
-    <section class="padding-block-900">
-      <div class="container">
-        <div class="even-columns">
-          <div class="flow">
-            <h1 class="fs-primary-heading fw-bold">The secret of success is constancy to purpose.</h1>
-            <p>Investing capital and operational expertise in founders who are reshaping their industries.s</p>
-            <button class="button">Participate</button>
-          </div>
-          <div>
-            <img src="images/intro.svg" alt="introduction">
-          </div>
+<div class="section-banner">
+    <div class="container">
+        <div class="div-banner">
+            <h4>Join us in building a stronger internet for a safer world!</h4>
         </div>
-      </div>
-    </section>
+        
+    </div>
+</div>
+        <div class="container">
+            <div class="row equal-height">
+                <div class="col-sm-5">
+                    <div class="card card-yellow" style="height: 200px;">
+                        <h2>Our goals</h2>
+                        <ul>
+                            <li>Promoting Cybersecurity Innovation.</li>
+                            <li>Realizing Development and education projects.</li>
+                            <li>Building Collaborative programs and networks.</li>
+                            
+                        </ul>
+                    </div>
 
+                    <div class="join" style="display: flex; justify-content: center; align-items: center; padding-top: 10px">
+                        <ul>
+                            <li style="list-style: none;"><a href="https://form.jotform.com/223184612605350">Participate</a></li>
+                        </ul>
+                    </div>
 
-    <section class="carousel | padding-block-700  text-center">
-      <h2 class="fs-secondary-heading fw-bold" id="participate">Participate</h2>
-      
       <!-- Calendly inline widget begin -->
-      <div class="calendly-inline-widget" data-url="https://calendly.com/director-divdfund" style="min-width:320px;height:630px;"></div>
+      <div class="calendly-inline-widget" data-url="https://calendly.com/director-divdfund" style="min-width:320px;height:330px;"></div>
       <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
     <!-- Calendly inline widget end -->
 
-    </section>
-
-    <section class="padding-block-900">
-      <div class="container">
-        <div class="even-columns">
-          <div class="flow text-center-sm-only margin" style="--flow-spacer: 1.5rem">
-            <h2 class="fs-secondary-heading fw-bold" id="purpose">Purpose</h2>
-            <p>DIVD Fund is a non-proft organization that supports innovative projects and initiatives.</p>
-          </div>
-          <div>
-            <ul class="numbered-items | flow" role="list">
-              <li>
-                <div class="flow" style="--flow-spacer: 1em">
-                  <h3 class="numbered-items__title | fs-600 fw-bold">Goal one</h3>
-                  <p class="numbered-items__body" data-width="wide">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper quam diam, ut gravida mi egestas et.</p>
-                </div>
-              </li>
-              <li>
-                <div class="flow" style="--flow-spacer: 1em">
-                  <h3 class="numbered-items__title | fs-600 fw-bold">Goal two</h3>
-                  <p class="numbered-items__body" data-width="wide">Integer vehicula pretium luctus. Quisque eu mollis nisi, eu vulputate nibh. Praesent tempus, tellus et lobortis consequat, enim mi dapibus urna, eu pellentesque nisi dui non nunc. Quisque consequat, leo vitae posuere dapibus, elit tortor vestibulum nisl, at pretium ante dolor et lorem.</p>
 
                 </div>
-              </li>
-              <li>
-                <div class="flow" style="--flow-spacer: 1em">
-                  <h3 class="numbered-items__title | fs-600 fw-bold">Goal three</h3>
-                  <p class="numbered-items__body" data-width="wide">Donec at consequat velit. Integer molestie elementum felis ut imperdiet. Mauris sagittis scelerisque magna nec tempus.  </p>
+                <div class="col-sm-7">
+                    <div class="card card-black">
+                        <h3>Purpose</h3>
+                        <p>The core values of DIVD.fund are integrity, connectivity and empowerment, where DIVD.fund is a dependable, independent and respected partner.</p>
+                        <b>Mission</b>
+                        <p>DIVD.fund stands for a healthy, secure and robust internet for everyone. By stimulating and financing innovative ideas, concepts and projects, DIVD.fund enhances security in the digital world. Within a safe climate and a stimulating and encouraging environment, young adults can develop their knowledge, skills and experience. We are inclusive and have an open mindset. We are impartial and apolitical. Trust is our greatest asset.</p>
+                        <b>Vision</b>
+                        <p>DIVD.fund believes in the power of talent, the quality of the individual, and in the combined strength of these individuals working together. Based on a shared mindset and intrinsic drive to make the internet a safer place, DIVD.fund brings together personal growth and joint development. People, companies and organisations join us on our mission to connect innovation, knowledge, capital and talent. The resulting synergy implies no ambition is too great, and no goal is unachievable, which strengthens the individual, the community and society.</p>
+                        <b>Strategy</b>
+                        <p>To achieve its mission and vision in the first five years of its existence (2023 - 2027), DIVD.fund has five strategic goals that are crucial for its success.</p>
+                            
+
+                        </ul>
+                    </div>
                 </div>
-              </li>
+            </div>
+            <div class="row row-voorouders">
+                <div class="col-sm9">
+                    <div class="card card-black">
+
+                        <h2>Projects</h2>
+                        <p>DIVD.fund helps launch projects as a cybersecurity innovation incubator to support startups, educational programs for young adults in cybersecurity, research collaborations on emerging technologies, awareness campaigns for the public, and partnerships with other organizations to collectively address cybersecurity challenges. These initiatives align with DIVD.fund's mission of promoting digital security and creating a safer online environment.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+<footer class="footer">
+    <div class="container footer-section">
+        <div class="section col-sm-4">
+            <img src="/images/logo.png" alt="DIVD.fund">
+        </div>
+        <div class="section col-sm-4">
+            <h3>Our Office</h3>
+            <p>Maanweg 174<br>
+               2516 AB Den Haag<br>
+               Tel.: (+31) 70 41 90 309</p>
+        </div>
+
+        <div class="section col-sm-4">
+            <ul style="list-style: none; text-align: left;">
+                <li><a href="https://www.linkedin.com/company/divd-charity" target="_blank" style="color: yellow;">LinkedIn</a></li>
+                <li><a href="https://twitter.com/DIVD_charity" target="_blank" style="color: yellow;">Twitter</a></li>
+                <li><a href="#" target="_blank" style="color: yellow;">Instagram</a></li>
+                <li><a href="#" target="_blank" style="color: yellow;">YouTube</a></li>
             </ul>
-          </div>
         </div>
-      </div>
-    </section>
-
-    <section class="carousel | padding-block-700  text-center">
-      <h2 class="fs-secondary-heading fw-bold" id="people">People</h2>
-      <!-- Carousel here -->
-      <ul class="slider">
-        <li>
-          <a href="https://theorg.com/org/divd-charity/org-chart/astrid-oosenbrug" target="_blank"><img src="https://cdn.theorg.com/0c03dd04-c676-4bbc-b7f6-a4caa010fe7e_thumb.jpg" class="avatar" alt="Astrid"></a>
-
-          <div class="slider-content | flow" style="--flow-spacer: 1rem">
-            <h3 class="fw-bold">Astrid</h3>
-            <p data-width="wide">“Treasurer, chair, lobbyist and foster parent to many young hackers. I started as sysadmin 20 years ago, but have mostly been politically active since, as Member of Parliament and in numerous NGOs.”</p>
-          </div>
-        </li>
-        <li>
-          <a href="https://theorg.com/org/divd-charity/org-chart/victor-gevers-1" target="_blank"><img src="https://cdn.theorg.com/f1d04bf0-e508-4fa6-beab-b48fcf8a125e_thumb.jpg" class="avatar" alt="Victor"></a>
-
-          <div class="slider-content | flow" style="--flow-spacer: 1rem">
-            <h3 class="fw-bold">Victor</h3>
-            <p data-width="wide">“Hacker. Chair and co-founder of numerous NGOs.” </p>
-          </div>
-        </li>
-        <li>
-          <a href="https://theorg.com/org/divd-fund/org-chart/ingeborg-jansen" target="_blank">
-          <img src="https://theorg.com/_next/static/media/placeholderImg.09241cda.png" class="avatar" alt="Ingeborg">
-        </a>
-
-          <div class="slider-content | flow" style="--flow-spacer: 1rem">
-            <h3 class="fw-bold">Ingeborg</h3>
-            <p data-width="wide">Managing director. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum nisi urna, at convallis enim tincidunt eu. In et orci nec sapien malesuada vulputate quis a ipsum. Sed et metus sapien. Nullam at dapibus ante. Pellentesque odio eros, posuere blandit consectetur in, venenatis eu felis. Donec fermentum mauris vel urna bibendum, et ultrices nulla ullamcorper. Nulla sollicitudin enim mauris, a rhoncus tortor fermentum id. Curabitur sed est porttitor, varius sem ac, rutrum tellus. Praesent ac augue a ipsum efficitur interdum. Phasellus lacinia at nisi ut suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-          </div>
-        </li>
-      </ul>
-      <button class="button">Participate </button>
-    </section>
-
-    <section class="cta | padding-block-900 bg-accent-400 text-neutral-100">
-      <div class="container">
-        <div class="even-columns vertical-align-center">
-          <div>
-            <p class="fs-primary-heading fw-bold">“Changes call for innovation, and innovation leads to progress.”</p>
-          </div>
-          <div class="justify-self-end-md">
-            <button class="button" data-type="inverted">Get Started</button>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="primary-footer | padding-block-700 bg-neutral-900 text-neutral-100">
-    <div class="container">
-      <div class="primary-footer-wrapper">
-        <div class="primary-footer-logo-social">
-          <a href="#" aria-label="home">
-            <svg class="logo" width="146" height="24">
-              <use xlink:href="/images/charity-logo-small.svg"></use>
-            </svg>
-          </a>
-
-          <ul class="social-list" role="list" aria-label="Social links">
-            <li><a aria-label="facebook" href="#">
-                <svg class="social-icon">
-                  <use xlink:href="/images/social-icons.svg#icon-facebook"></use>
-                </svg></a>
-            </li>
-            <li><a aria-label="youtube" href="#">
-                <svg class="social-icon">
-                  <use xlink:href="/images/social-icons.svg#icon-youtube"></use>
-                </svg>
-              </a></li>
-            <li><a aria-label="twitter" href="#">
-                <svg class="social-icon">
-                  <use xlink:href="/images/social-icons.svg#icon-twitter"></use>
-                </svg>
-              </a></li>
-            <li><a aria-label="pinterest" href="#">
-                <svg class="social-icon">
-                  <use xlink:href="/images/social-icons.svg#icon-pinterest"></use>
-                </svg>
-              </a></li>
-            <li><a aria-label="instragram" href="#">
-                <svg class="social-icon">
-                  <use xlink:href="/images/social-icons.svg#icon-instagram"></use>
-                </svg>
-              </a></li>
-          </ul>
-        </div>
-        <div class="primary-footer-nav">
-          <nav class="footer-nav">
-            <ul class="flow" style="--flow-spacer: 1em" aria-label="Footer" role="list">
-              <li><a href="#purpose">Purpose</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#people">People</a></li>
-                <li><a href="https://theorg.com/org/divd-fund/jobs" target="_blank">Postions</a></li>
-              <li><a href="#">Principles</a></li>
-              <li><a href="#">Patronage</a></li>           
-              <li><a href="/privacy">Privacy Policy</a></li>
-
-            </ul>
-          </nav>
-        </div>  
-        <div class="primary-footer-form">
-          <!-- <form action="">
-            <input type="email">
-            <button class="button" data-shadow="none">Go</button>
-          </form> -->
-          <p class="copyright">Copyright 2023. All Rights Reserved</p>
-        </div>
-      </div>
     </div>
-  </footer>
 
-  <script type="module" src="/main.js"></script>
+</footer>
+
 </body>
+<!-- BOOTSTRAP JS -->
+<script src="js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<!-- JS -->
+<script src="js/script.js"></script>
 
 </html>
